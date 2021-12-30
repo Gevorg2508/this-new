@@ -1,7 +1,7 @@
 function Person(name, age){
 this.name = name;
 this.age = age;
-// }
+}
 
 Person.prototype.compareAge = function(person){
     console.log('person', person);
